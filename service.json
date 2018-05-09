@@ -28,15 +28,15 @@
     },
     {
       "name": "T1-MRI-LSEG",
-      "type": "OverlayImage",
+      "type": "SegmentationLabel",
       "hint": "Baseline left hippocampus segmentation",
-      "required": true
+      "required": false
     },
     {
       "name": "T1-MRI-RSEG",
-      "type": "OverlayImage",
+      "type": "SegmentationLabel",
       "hint": "Baseline right hippocampus segmentation",
-      "required": true
+      "required": false
     },
     {
       "name": "AC",
