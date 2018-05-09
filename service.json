@@ -1,29 +1,41 @@
 
 {
-  "name": "ASHS-PMC",
+  "name": "ALOHA",
   "version": "1.0.0",
   "keywords": [
     "hippocampus",
-    "subfields",
+    "atrophy",
     "dementia",
     "brain",
     "mtl"
   ],
-  "shortdesc": "Hippocampal and MTL subfield segmentation in 3 Tesla T2-MRI",
-  "longdesc": "Automatic segmentation of hippocampal subfields and MTL subregions in high-resolution T2-weighted 3 Tesla MRI scans, using an atlas of older adults with and without mild cognitive impairment from the Penn Memory Center (PMC).",
+  "shortdesc": "Hippocampal atrophy rate from two serial images",
+  "longdesc": "ALOHA description is coming",
   "citation": "https://www.ncbi.nlm.nih.gov/pubmed/25181316",
   "url": "https://sites.google.com/view/ashs-dox/mri-data/ashs-pmc-atlas-requirements",
   "tags": [
     {
-      "name": "T2-MRI",
+      "name": "T1-MRI-BL",
       "type": "MainImage",
-      "hint": "A high-resolution (e.g., 0.4x0.4x2.0mm^3) T2-weighted MRI scan with oblique coronal orientation parallel to hippocampal main axis. This scan must be the main image in the workspace.",
+      "hint": "Baseline T1-MRI. This scan must be the main image in the workspace.",
       "required": true
     },
     {
-      "name": "T1-MRI",
+      "name": "T1-MRI-FU",
       "type": "OverlayImage",
-      "hint": "Roughtly isotropic (e.g., 1x1x1mm^3) T1-weighted MRI scan of the whole brain.",
+      "hint": "Followup T1-MRI. This scan must be an overlay image in the workspace.",
+      "required": true
+    },
+    {
+      "name": "T1-MRI-LSEG",
+      "type": "OverlayImage",
+      "hint": "Baseline left hippocampus segmentation",
+      "required": true
+    },
+    {
+      "name": "T1-MRI-RSEG",
+      "type": "OverlayImage",
+      "hint": "Baseline right hippocampus segmentation",
       "required": true
     },
     {
