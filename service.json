@@ -27,16 +27,10 @@
       "required": true
     },
     {
-      "name": "T1-MRI-LSEG",
-      "type": "SegmentationLabel",
-      "hint": "Baseline left hippocampus segmentation",
-      "required": false
-    },
-    {
-      "name": "T1-MRI-RSEG",
-      "type": "SegmentationLabel",
-      "hint": "Baseline right hippocampus segmentation",
-      "required": false
+      "name": "T1-MRI-SEG",
+      "type": "OverlayImage",
+      "hint": "Baseline hippocampus segmentation, use output of ASHS-HarP",
+      "required": true
     },
     {
       "name": "AC",
