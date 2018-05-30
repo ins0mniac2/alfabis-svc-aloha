@@ -10,7 +10,7 @@
     "mtl"
   ],
   "shortdesc": "Hippocampal atrophy rate from two serial images",
-  "longdesc": "ALOHA description is coming",
+  "longdesc": "ALOHA : submit after you have run ASHS-HarP on baseline MRI",
   "citation": "https://www.ncbi.nlm.nih.gov/pubmed/25181316",
   "url": "https://sites.google.com/view/ashs-dox/mri-data/ashs-pmc-atlas-requirements",
   "tags": [
